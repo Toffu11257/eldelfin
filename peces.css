@@ -1,0 +1,89 @@
+.header { 
+  background-color: lightblue;  /* fonzo azul claro */
+}
+body {
+  background-color: white; /* fondo blanco */
+  margin: 0; /* Eliminar márgenes predeterminados */
+  border: 15px solid lightblue; /*Borde de 10px, solido y azul claro*/
+  box-sizing: border-box; /* Incluye el borde en las dimensiones */
+}
+.h1 {
+  font-family: "Georgia", Serif;
+  font-size: 45px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.h2 {
+  text-align: center;
+  font-size: 35px;
+  color: Blue;
+}
+.texto-derecha {
+  text-align: center;
+  font-size: 30px;
+}
+.contenedor {
+  font-size: 25px;
+  line-height: 1.5; /* Aumenta la altura de linea en un 50% */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.contenedor2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px 0px 0px 0px;
+}
+.contenedor3 {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 315px;
+  font-family: "Georgia", Serif;
+  font-size: 25px;
+  color: purple;
+}
+.h2b {
+  font-size: 35px;
+  font-family: New York Times;
+  text-align: center;
+}
+.contenedor4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 25px;
+  line-height: 1.75; /* Aumenta la altura de linea en un 75% */
+}
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+}
+
+ thead {
+   background-color: lightblue;
+   color: purple;
+   font-size: 25px;
+   border: 1px solid black;
+    }
+
+ tbody {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 20px;
+    }
+tr {
+   border: 1px solid black;
+}
+td {
+   border: 1px solid black;
+}
